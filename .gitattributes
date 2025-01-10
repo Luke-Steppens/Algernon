@@ -19,6 +19,7 @@
 *.svg   binary
 *.webp  binary
 *.heic  binary
+*.pdf   binary
 
 # Fusion 360 files
 *.f3d   binary
@@ -55,4 +56,4 @@
 *.stp   lock
 *.iges  lock
 *.igs   lock
-
+*.pdf   lock
