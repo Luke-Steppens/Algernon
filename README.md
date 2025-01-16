@@ -6,7 +6,7 @@ The goal of the project is to design, build, and program a robot capable of navi
 
 ---
 
-![High-Resolution Render](https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/CAD/Renders/render%20with%20exhaust.png?raw=true)
+![High-Resolution Render](https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/CAD/Renders/render%20with%20exhaust.png?raw=true)
 
 ---
 
@@ -81,29 +81,29 @@ To begin, gather the following components for the Micromouse project:
   <tr>
     <td style="text-align: center;">
       <b>Microcontroller:</b><br>Pi Pico<br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Component%20Pictures/pico.png?raw=true width="250" height="110">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Component%20Pictures/pico.png?raw=true width="250" height="110">
     </td>
     <td style="text-align: center;">
       <b>Motor Driver:</b><br>L293D<br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Component%20Pictures/Screenshot%202024-10-26%20080457.png?raw=true width="250" height="180">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Component%20Pictures/Screenshot%202024-10-26%20080457.png?raw=true width="250" height="180">
     </td>
     <td style="text-align: center;">
       <b>Proximity Sensor:</b><br>TCRT5000<br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Component%20Pictures/TCRT5000.png?raw=true width="250" height="180">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Component%20Pictures/TCRT5000.png?raw=true width="250" height="180">
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
       <b>Voltage Regulator:</b><br>L7805<br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Component%20Pictures/L7805.png?raw=true width="250" height="180">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Component%20Pictures/L7805.png?raw=true width="250" height="180">
     </td>
     <td style="text-align: center;">
       <b>Magnetometer Compass:</b><br>GY-271 HMC5883L<br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20%26%20Photos/Component%20Pictures/HMC5883l.webp width="250" height="180">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/raw/refs/heads/main/Documentation/Screenshot%20&%20Photos/Component%20Pictures/HMC5883l.webp width="250" height="180">
     </td>
     <td style="text-align: center;">
       <b>DC Motors:</b><br>12V N20<br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20%26%20Photos/Component%20Pictures/N20.webp width="230" height="180">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/raw/refs/heads/main/Documentation/Screenshot%20&%20Photos/Component%20Pictures/N20.webp width="230" height="180">
     </td>
   </tr>
 </table>
@@ -120,7 +120,7 @@ This section has a variety of parts that other users have uploaded, which can sa
 
 <div style="text-align: center; margin-bottom: 20px;">
   <b>User Contributed Section</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/easygreen.png?raw=true width="500" height="300">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/easygreen.png?raw=true width="500" height="300">
 </div>
 
 ### Component and ID’s
@@ -138,7 +138,7 @@ Here's an example of how the schematic layout in EasyEDA looks:
 
 <div style="text-align: center; margin-bottom: 20px;">
   <b>EasyEDA Schematic Layout</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/Algernon%20sheet.png?raw=true width="800" height="600">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/Algernon%20sheet.png?raw=true width="800" height="600">
 </div>
 Please ensure you check your datasheets to get the connections correct. I took the incorrect details from a sellers page and had troubles down the line. (It is Corrected in this Schematic)
 
@@ -154,7 +154,7 @@ create a new sketch on the surface of the design. After finishing the sketch, ri
 
 <div style="text-align: center; margin-bottom: 20px;">
   <b>Base Design of PCB</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/image.png?raw=true width="500" height="300">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/image.png?raw=true width="500" height="300">
 </div>
 
 <br><br> <!-- Extra line break -->
@@ -163,7 +163,7 @@ create a new sketch on the surface of the design. After finishing the sketch, ri
 The next step is to import your DXF file into EasyEDA and place your schematic on it. Consider the placement of components carefully to ensure proper functionality. For instance, the TCRT5000 proximity sensors should be positioned at the edges, and the L7805 voltage regulator is quite tall, so it may interfere with the chassis design. To make the routing process easier, we can utilize both the top and bottom layers of the PCB, represented by the red and blue lines, respectively. Add a copper layer within the PCB that way there is no need to connect ground connections, of which there are many. Alongside this do the same with +5V removing more manual connections and saving time. 
 <div style="text-align: center; margin-bottom: 20px;">
   <b>Layout Considering Physicality of Components and Tracks</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/image(2).png?raw=true width="500" height="300">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/image(2).png?raw=true width="500" height="300">
 </div>
 
 
@@ -172,7 +172,7 @@ The next step is to import your DXF file into EasyEDA and place your schematic o
 When routing the board, avoid creating arbitrary lines. Instead, aim to have the tracks run parallel to one another. Shorter tracks result in less resistance, improving performance. Next press the Design Rule Check button too see if everything is correct, if you have no errors feel free to proceed.
 <div style="text-align: center; margin-bottom: 20px;">
   <b>Final Track Layout</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/schematicnopics.png?raw=true width="500" height="300">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/schematicnopics.png?raw=true width="500" height="300">
 </div>
 
 <br><br> <!-- Extra line break -->
@@ -180,12 +180,12 @@ When routing the board, avoid creating arbitrary lines. Instead, aim to have the
 Once you are pleased with your setup press the 3D button to get an idea of the final product.
 <div style="text-align: center; margin-bottom: 20px;">
   <b>PCB 3D Render</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/3d.png?raw=true width="500" height="300">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/PCB%20Design/3d.png?raw=true width="500" height="300">
 </div>
 
 
 ---
-![High-Resolution Render](https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/CAD/Renders/algernon%20in%20a%20dry%20lake.png?raw=true)
+![High-Resolution Render](https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/CAD/Renders/algernon%20in%20a%20dry%20lake.png?raw=true)
 
 ---
 
@@ -198,13 +198,13 @@ Firstly a sketch is placed and we begin building a basic block with holes with w
 
 <div style="text-align: center; margin-bottom: 20px;">
   <b>Base Dimensions</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/basedimensions.png?raw=true width="500" height="200">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/basedimensions.png?raw=true width="500" height="200">
 </div>
 
 
 <div style="text-align: center; margin-bottom: 20px;">
   <b>Base Extrude</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/baseextrude.png?raw=true width="500" height="350">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/baseextrude.png?raw=true width="500" height="350">
 </div>
 
 <br><br> <!-- Extra line break -->
@@ -215,11 +215,11 @@ next step is to carve out the hole for the DC motor and to create the shape of t
   <tr>
     <td style="text-align: center;">
       <b>Mount Shape</b><br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/mount%20shape.png?raw=true width="470" height="130">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/mount%20shape.png?raw=true width="470" height="130">
     </td>
     <td style="text-align: center;">
       <b>Extrude Cut</b><br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/blockextr.png?raw=true width="500" height="180">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/blockextr.png?raw=true width="500" height="180">
     </td>
   </tr>
 </table>
@@ -233,11 +233,11 @@ Between the PCB and mount we need 3mm clearance. extrude the offset circles on t
   <tr>
     <td style="text-align: center;">
       <b>Offset Circle Extrude + Offset</b><br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/chamfer.png?raw=true width="500" height="130">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/chamfer.png?raw=true width="500" height="130">
     </td>
     <td style="text-align: center;">
       <b>Filleted Edges</b><br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/fillet.png?raw=true width="500" height="150">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/fillet.png?raw=true width="500" height="150">
     </td>
   </tr>
 </table>
@@ -247,7 +247,7 @@ In order to have the mount screws fit correctly a horizontal extrude is needed o
 
 <div style="text-align: center; margin-bottom: 20px;">
   <b>Flat Extrude for Screw Nuts and extras</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/bolt%20space.png?raw=true width="500" height="200">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/bolt%20space.png?raw=true width="500" height="200">
 </div>
 
 <br><br> <!-- Extra line break -->
@@ -259,11 +259,11 @@ For character to make the mounts match the "Paw" shape of the PCB base, cut out 
   <tr>
     <td style="text-align: center;">
       <b>Paw Shape</b><br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/paw%20gap.png?raw=true width="500" height="200">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/paw%20gap.png?raw=true width="500" height="200">
     </td>
     <td style="text-align: center;">
       <b>Filleted Edges</b><br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/paw%20fillet.png?raw=true width="500" height="250">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/paw%20fillet.png?raw=true width="500" height="250">
     </td>
   </tr>
 </table>
@@ -276,13 +276,13 @@ To create the motor mounts counterpart create a construction plane that is offse
 
 <div style="text-align: center; margin-bottom: 20px;">
   <b>Construction Plane</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/construction%20plane.png?raw=true width="500" height="250">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/construction%20plane.png?raw=true width="500" height="250">
 </div>
 
 
 <div style="text-align: center; margin-bottom: 20px;">
   <b>Mirror Mount</b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/mount%20mirror.png?raw=true width="500" height="240">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/mount%20mirror.png?raw=true width="500" height="240">
 </div>
 
 <br><br> <!-- Extra line break -->
@@ -295,11 +295,11 @@ The last touch on the mounts was to add text to the them. Create sketches on the
   <tr>
     <td style="text-align: center;">
       <b>How's My</b><br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/hows.png?raw=true width="500" height="220">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/hows.png?raw=true width="500" height="220">
     </td>
     <td style="text-align: center;">
       <b>Driving</b><br>
-      <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/drivingtxt.png?raw=true width="500" height="220">
+      <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/drivingtxt.png?raw=true width="500" height="220">
     </td>
   </tr>
 </table>
@@ -310,7 +310,7 @@ Going back into Fusion 360 you can create an assembly with all current parts whi
 
 <div style="text-align: center; margin-bottom: 20px;">
   <b>Motor Mount + PCB Assembly </b><br>
-  <img src=https://github.falmouth.ac.uk/LS297804/COMP207-project/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/Assembly%209.png?raw=true width="1487" height="746">
+  <img src=https://github.com/Luke-Steppens/Algernon-Micro-Mouse/blob/main/Documentation/Screenshot%20&%20Photos/Motor%20Mount/Assembly%209.png?raw=true width="1487" height="746">
 </div>
 
 <br><br> <!-- Extra line break -->
